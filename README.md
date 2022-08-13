@@ -54,21 +54,6 @@ open.MouseButton1Down:connect(function()
     Library:ToggleUI()
 end)
 
-local Tab1 = Window:NewTab("Credits")
-local Tab1Section = Tab1:NewSection("Thank For Using FireNatural Simulator")
-
-Tab1Section:NewButton("alt1lr#3351", "No Description", function()
-setclipboard('alt1lr#3351')
-end)
-
-Tab1Section:NewButton("Discord", "No Description", function()
-setclipboard('https://discord.gg/zs4FP4VYYx')
-end)
-
-Tab1Section:NewButton("Youtube", "No Description", function()
-setclipboard('https://m.youtube.com/channel/UCxfiH1VLU1H6td_ny_Bt0oQ')
-end)
-
 local Tab2 = Window:NewTab("SuperNatural")
 local Tab2Section = Tab2:NewSection("Script")
 
